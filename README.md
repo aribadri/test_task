@@ -1,1 +1,3 @@
-# test_task
+cd todo
+yarn
+yarn run dev
