@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 45%;
+  height: 40%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: -webkit-linear-gradient(90deg, #000000, #8a8a8a);
+  background: linear-gradient(90deg, #000000, #8a8a8a);
+  border-radius: 3vw;
+  color: white;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 7%;
+  left: 92%;
+  width: 2vw;
+  height: 2vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 3vw;
+}
+.closeBtnDote {
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  width: 0.9vw;
+  height: 0.9vw;
+  clip-path: polygon(
+    20% 0%,
+    0% 20%,
+    30% 50%,
+    0% 80%,
+    20% 100%,
+    50% 70%,
+    80% 100%,
+    100% 80%,
+    70% 50%,
+    100% 20%,
+    80% 0%,
+    50% 30%
+  );
+}

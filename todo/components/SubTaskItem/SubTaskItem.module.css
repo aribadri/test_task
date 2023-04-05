@@ -1,0 +1,22 @@
+.task {
+
+  font-size: 1.5vw;
+  font-weight: 400;
+  text-align: start;
+}
+.circle {
+    display: inline-block;
+  background: #1b7c37;
+  clip-path: circle(50%);
+  height: 1vw;
+  width: 1vw;
+  margin-right: 4vw;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}

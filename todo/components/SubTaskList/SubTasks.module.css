@@ -1,0 +1,49 @@
+.addBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 4vw;
+  color: white;
+  font-weight: 600;
+  border-radius: 4vw;
+  background: -webkit-linear-gradient(90deg, #000000, #8a8a8a);
+  background: linear-gradient(90deg, #000000, #8a8a8a);
+  cursor: pointer;
+}
+.addBtn:hover {
+  background: -webkit-linear-gradient(90deg, #000000, #4f7a28, #000000);
+  background: linear-gradient(90deg, #000000, #4f7a28, #000000);
+}
+.modalInput {
+  width: 50%;
+  height: 3vw;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 400;
+  border: 1px solid rgb(253, 253, 253);
+  border-radius: 5vw;
+}
+.modalContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 40vw;
+  height: 20vw;
+  position: fixed;
+  left: 50vw;
+  top: 40vh;
+  transform: translateX(-75%) translateY(-50vh);
+  background: -webkit-linear-gradient(90deg, #000000, #8a8a8a);
+  background: linear-gradient(90deg, #000000, #8a8a8a);
+  border-radius: 3vw;
+  color: white;
+  z-index: 10;
+}
+.container {
+    width: 40%;
+    margin-bottom: 5%;
+}

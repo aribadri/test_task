@@ -1,0 +1,36 @@
+.addSubtaskBtn {
+  width: 2vw;
+  height: 2vw;
+  background: linear-gradient(
+      to bottom,
+      transparent 35%,
+      rgb(16, 19, 16) 35%,
+      rgb(14, 15, 14) 65%,
+      transparent 65%
+    ),
+    linear-gradient(
+      to right,
+      transparent 35%,
+      rgb(89, 90, 89) 35%,
+      rgb(148, 151, 150) 65%,
+      transparent 65%
+    );
+  margin-right: 2vw;
+}
+
+.addSubtaskBtn:hover {
+  background: linear-gradient(
+      to bottom,
+      transparent 35%,
+      rgb(38, 124, 38) 35%,
+      rgb(63, 163, 79) 65%,
+      transparent 65%
+    ),
+    linear-gradient(
+      to right,
+      transparent 35%,
+      rgb(15, 133, 25) 35%,
+      rgb(14, 185, 100) 65%,
+      transparent 65%
+    );
+}

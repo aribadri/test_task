@@ -1,0 +1,18 @@
+.projectNameInput {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  font-size: 4vw;
+  text-align: center;
+  width: 40%;
+}
+.projectNameInput:focus {
+  border: 1px solid green;
+
+  outline: 1px;
+}

@@ -1,0 +1,12 @@
+.searchInput {
+  position: fixed;
+  left: 2%;
+  top: 3.9%;
+  width: 20vw;
+  height: 2vw;
+  background: #fdf9f9;
+  border-radius: 1.5vw;
+  border: 0.1vw solid black;
+  text-align: center;
+  font-size: 1.7vw;
+}
